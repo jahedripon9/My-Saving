@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #010101;
+    font-family: 'Acme', sans-serif;
+}
+/* Main Menu */
+.main-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 80px;
+}
+.logo h1{
+    color: #fff;
+}
+.logo a {
+    margin-right: 20px;
+    font-size: 30px;
+    color: #fff;
+}
+.menu{}
+.menu a {
+    margin-right: 40px;
+    padding-right: 44px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.main-section{
+    display: flex;
+}
+.information{
+    width: 40%;
+    padding-left: 80px;
+}
+.information .text-h4{
+    color: #fff;
+    font-size: 24px;
+}
+.information .text-h1 {
+    color: #fff;
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.text-p {
+    color: #fff;
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+span{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.button{
+    background: #FF4BB5;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+}
+.days{
+    margin-top: 30px;
+}
+.fa-check{
+    background: #4FBA5B;
+    padding: 5px 5px;
+    border-radius: 50%;
+    color: #fff;
+}
+.free{
+    margin-left: 10px;
+    color: #fff;
+}
+
+
+.banner-section{
+    width: 60%;
+}
+.banner-section .banner img{
+    width: 730px;
+}
+.child-plan {
+    position: absolute;
+    top: 70%;
+    left: 56%;
+}
+.child-plan img{
+    width: 75%;
+    position: relative;
+}
+.market-cap {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+}
+.market-cap img{
+    width: 75%;
+    position: relative;
+}
+.life-save {
+    position: absolute;
+    top: 100%;
+    left: 72%;
+}
+.life-save img{
+    width: 80%;
+    position: relative;
+}
